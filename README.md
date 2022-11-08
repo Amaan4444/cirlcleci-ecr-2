@@ -1,5 +1,6 @@
 ## CircleCi による、AWS ECSへのビルド/デプロイ実行コンフィグ
-
+FROM nginx
+COPY html /usr/share/nginx/html
 #### 概要
 このリポジトリがコミットされると、CircleCIのビルド/デプロイを実行できます。
 
