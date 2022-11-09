@@ -44,7 +44,7 @@ workflows:
           context: wordpress-test
           registry-id: AWS_ECR_REGISTRY_ID
           create-repo: false
-          # dockerfile: Dockerfile
+          dockerfile: Dockerfile
           # no-output-timeout: 20m
           path: .
           profile-name: default
