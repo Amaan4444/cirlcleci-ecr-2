@@ -43,7 +43,7 @@ workflows:
           region: us-east-1
           context: wordpress-test
           registry-id: AWS_ECR_REGISTRY_ID
-          create-repo: false
+          create-repo: true
           dockerfile: Dockerfile
           # no-output-timeout: 20m
           path: .
